@@ -21,9 +21,21 @@ var courses = [
     },
 ]
 
-var isFree = courses.find(function(course, index) {
-    console.log(index);
-    return course.coin === 1000
-})
+// function handleMap(course, index) {
+//     return {
+//         id: course.id,
+//         name: 'Khoa hoc ' + course.name,
+//         coin: 'Gia ' + course.coin
+//     }
+// }
 
-console.log(isFree);
+// var isFree = courses.map(handleMap);
+
+
+
+function coinHandler(accumulator, currentValue, currentIndex, originArray) {
+    return accumulator + currentValue.coin
+}
+
+var totalCoin = courses.reduce(coinHandler, 0);
+console.log(totalCoin);
