@@ -5,3 +5,8 @@ headingElement.title = 'Tieu de'
 headingElement.className = 'newClass' // setter
 
 headingElement.setAttribute('abc', 'xyz')
+
+var boxElement = document.querySelector('.box')
+boxElement.innerHTML = '<h1> H1 tag </h1>'
+
+console.log(headingElement.innerHTML);

@@ -11,3 +11,6 @@
 - Text: 
     + innerText: bỏ qua thẻ HTML (thấy sao giá trị như v)
     + textContent: trả về textNode
+- Add Element:
+    + getElement
+    + 
