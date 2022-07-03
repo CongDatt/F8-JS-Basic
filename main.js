@@ -10,3 +10,7 @@ var boxElement = document.querySelector('.box')
 boxElement.innerHTML = '<h1> H1 tag </h1>'
 
 console.log(headingElement.innerHTML);
+
+headingElement.classList.add('add','classList')
+
+console.log(headingElement.classList.contains('add'));
