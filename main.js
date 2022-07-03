@@ -1,1 +1,1 @@
-console.log('testinggg');
+const sum = (a,b) => a + b
