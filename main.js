@@ -1,1 +1,3 @@
-console.log('testinggg');
+(function(){
+    console.log('IIFE')
+})()
